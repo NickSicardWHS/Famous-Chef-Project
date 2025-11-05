@@ -1,9 +1,26 @@
-html {
-  height: 100%;
-  width: 100%;
+
+
+body {
+  text-align:center;
 }
 
-p {
-  text-align: center;
+th {
+  text-align:center;
+}
+.container {
+  display: flex; /* Enables flexbox layout for children */
+  align-items: flex-start; /* Aligns items to the top */
 }
 
+.side-left,
+.side-right {
+  width: 100px; /* Example width for the blank side divs */
+  height: 100px; /* Example height for the blank side divs */
+  
+}
+
+.main-content {
+  flex-grow: 1; /* Allows the main content to take up remaining space */
+  padding: 15px;
+  border: 1px solid black;
+}
