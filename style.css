@@ -1,11 +1,9 @@
-
-
 body {
-  text-align:center;
+  text-align:auto;
 }
 
 th {
-  text-align:center;
+  text-align:auto;
 }
 .container {
   display: flex; /* Enables flexbox layout for children */
