@@ -6,8 +6,9 @@ th {
   text-align:auto;
 }
 .container {
-  display: flex; /* Enables flexbox layout for children */
-  align-items: flex-start; /* Aligns items to the top */
+  display: center; /* Enables flexbox layout for children */
+  align-items: center; /* Aligns items to the top */
+  
 }
 
 .side-left,
